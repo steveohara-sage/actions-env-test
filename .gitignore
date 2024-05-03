@@ -1,0 +1,32 @@
+*.keystore
+*.secret
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------------------------------------------------------------------- #
+# Eclipse-specific (https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore) #
+# ------------------------------------------------------------------------------------------- #
+.metadata
+bin/
+.settings/
+.classpath
+.project
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# IntelliJ IDEA
+.idea
+
+# Gradle
+.gradle/
+build/
+out/
+target/
+# DO NOT exclude the gradle wrapper jar!
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# gource
+*.wmv
+*.ppm
